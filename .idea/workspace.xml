@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2084dc09-f5a8-4f59-b15e-ef23cb3ee7fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factorymethod/Gundam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factorymethod/GundamFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factorymethod/PsychoGundam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factorymethod/PsychoGundamFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/factorymethod/PsychoGundamFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="2084dc09-f5a8-4f59-b15e-ef23cb3ee7fd" name="Changes" comment="feat: factory method pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/body/FreedomGundam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/body/FreedomGundamFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/body/Gundam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/body/GundamFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/body/JakuGundam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/body/JakuGundamFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/parts/BeamShabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/parts/BlackSideGundamPartsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/parts/Gun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/parts/GundamPartsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/parts/LazerGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/parts/MachineGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/parts/ShortKnife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/parts/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactorymethod/gundam/parts/WhiteSideGundamPartsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/abstractfactorymethod/GundamFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +47,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -75,11 +84,104 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="abstractfactorymethod" />
       <recent name="factorymethod" />
       <recent name="singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PsychoGundamFactoryTest">
+  <component name="RunManager" selected="Gradle.GundamFactoryTest">
+    <configuration name="GundamFactoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;abstractfactorymethod.GundamFactoryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GundamFactoryTest.create_Freedom_Gundam" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;abstractfactorymethod.GundamFactoryTest.create_Freedom_Gundam&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GundamFactoryTest.produce_Freedom_Gundam" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;abstractfactorymethod.GundamFactoryTest.produce_Freedom_Gundam&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GundamFactoryTest.produce_Jaku_Gundam" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;abstractfactorymethod.GundamFactoryTest.produce_Jaku_Gundam&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="PsychoGundamFactoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -103,105 +205,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PsychoGundamFactoryTest.throw_IllegalArgumentException_when_unitNumber_is_blank" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;factorymethod.PsychoGundamFactoryTest.throw_IllegalArgumentException_when_unitNumber_is_blank&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PsychoGundamFactoryTest.throw_exception_when_unitNumber_is_blank" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;factorymethod.PsychoGundamFactoryTest.throw_exception_when_unitNumber_is_blank&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="PsychoGundamFactoryTest.two_different_psycho_gundams_generated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;factorymethod.PsychoGundamFactoryTest.two_different_psycho_gundams_generated&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ReflectionSafeSingletonTest.Serialization_do_not_break_singleton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;singleton.ReflectionSafeSingletonTest.Serialization_do_not_break_singleton&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GundamFactoryTest" />
+        <item itemvalue="Gradle.GundamFactoryTest.produce_Freedom_Gundam" />
+        <item itemvalue="Gradle.GundamFactoryTest.produce_Jaku_Gundam" />
+        <item itemvalue="Gradle.GundamFactoryTest.create_Freedom_Gundam" />
         <item itemvalue="Gradle.PsychoGundamFactoryTest" />
-        <item itemvalue="Gradle.PsychoGundamFactoryTest.throw_IllegalArgumentException_when_unitNumber_is_blank" />
-        <item itemvalue="Gradle.PsychoGundamFactoryTest.throw_exception_when_unitNumber_is_blank" />
-        <item itemvalue="Gradle.PsychoGundamFactoryTest.two_different_psycho_gundams_generated" />
-        <item itemvalue="Gradle.ReflectionSafeSingletonTest.Serialization_do_not_break_singleton" />
       </list>
     </recent_temporary>
   </component>
@@ -217,8 +227,16 @@
       <workItem from="1668573479713" duration="41000" />
       <workItem from="1668786970776" duration="9000" />
       <workItem from="1668825089986" duration="7000" />
-      <workItem from="1669248038984" duration="4186000" />
+      <workItem from="1669248038984" duration="8948000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: factory method pattern">
+      <created>1669263633319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669263633319</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,5 +264,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: factory method pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: factory method pattern" />
   </component>
 </project>

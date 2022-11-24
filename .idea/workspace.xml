@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2084dc09-f5a8-4f59-b15e-ef23cb3ee7fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/ReflectionSafeSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/SimpleSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/ThreadSafeSingletonV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/ThreadSafeSingletonV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/singleton/ReflectionSafeSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/singleton/SimpleSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/singleton/ThreadSafeSingletonV1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/singleton/ThreadSafeSingletonV2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factorymethod/Gundam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factorymethod/GundamFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factorymethod/PsychoGundam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factorymethod/PsychoGundamFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factorymethod/PsychoGundamFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -61,6 +60,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -75,10 +75,103 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="factorymethod" />
       <recent name="singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ReflectionSafeSingletonTest.Serialization_do_not_break_singleton">
+  <component name="RunManager" selected="Gradle.PsychoGundamFactoryTest">
+    <configuration name="PsychoGundamFactoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;factorymethod.PsychoGundamFactoryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PsychoGundamFactoryTest.throw_IllegalArgumentException_when_unitNumber_is_blank" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;factorymethod.PsychoGundamFactoryTest.throw_IllegalArgumentException_when_unitNumber_is_blank&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PsychoGundamFactoryTest.throw_exception_when_unitNumber_is_blank" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;factorymethod.PsychoGundamFactoryTest.throw_exception_when_unitNumber_is_blank&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PsychoGundamFactoryTest.two_different_psycho_gundams_generated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;factorymethod.PsychoGundamFactoryTest.two_different_psycho_gundams_generated&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ReflectionSafeSingletonTest.Serialization_do_not_break_singleton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -102,105 +195,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ReflectionSafeSingletonTest.reflection_unable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;singleton.ReflectionSafeSingletonTest.reflection_unable&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ThreadSafeSingletonV1Test.always_return_same_instance_with_multiple_threads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;singleton.ThreadSafeSingletonV1Test.always_return_same_instance_with_multiple_threads&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ThreadSafeSingletonV2Test.Serialization_doesnt_break_singleton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;singleton.ThreadSafeSingletonV2Test.Serialization_doesnt_break_singleton&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ThreadSafeSingletonV2Test.always_return_same_instance_with_multiple_threads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;singleton.ThreadSafeSingletonV2Test.always_return_same_instance_with_multiple_threads&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PsychoGundamFactoryTest" />
+        <item itemvalue="Gradle.PsychoGundamFactoryTest.throw_IllegalArgumentException_when_unitNumber_is_blank" />
+        <item itemvalue="Gradle.PsychoGundamFactoryTest.throw_exception_when_unitNumber_is_blank" />
+        <item itemvalue="Gradle.PsychoGundamFactoryTest.two_different_psycho_gundams_generated" />
         <item itemvalue="Gradle.ReflectionSafeSingletonTest.Serialization_do_not_break_singleton" />
-        <item itemvalue="Gradle.ReflectionSafeSingletonTest.reflection_unable" />
-        <item itemvalue="Gradle.ThreadSafeSingletonV2Test.Serialization_doesnt_break_singleton" />
-        <item itemvalue="Gradle.ThreadSafeSingletonV2Test.always_return_same_instance_with_multiple_threads" />
-        <item itemvalue="Gradle.ThreadSafeSingletonV1Test.always_return_same_instance_with_multiple_threads" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +214,10 @@
       <option name="presentableId" value="Default" />
       <updated>1668515858339</updated>
       <workItem from="1668515860479" duration="10639000" />
+      <workItem from="1668573479713" duration="41000" />
+      <workItem from="1668786970776" duration="9000" />
+      <workItem from="1668825089986" duration="7000" />
+      <workItem from="1669248038984" duration="4186000" />
     </task>
     <servers />
   </component>

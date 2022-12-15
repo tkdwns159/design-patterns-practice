@@ -41,3 +41,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### User-Define ###
+src/test/java/singleton/ReflectionSafeSingleton
+src/test/java/singleton/ThreadSafeSingletonV1
+src/test/java/singleton/ThreadSafeSingletonV2

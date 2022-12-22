@@ -15,7 +15,8 @@ Reference: https://en.wikipedia.org/wiki/Adapter_pattern
 Adapter Pattern과 구조가 유사하므로 주의하여야 한다. 추상과 구현을 분리하는 동시에, 둘을 잇고자 사용하는 디자인 패턴이다.
 추상과 구현의 확실한 분리와 연결을 통해, 여러가지 추상 구현체와 여러가지 구현을 다양하게 조합할 수 있다.
 보통 추상체가 구현체의 인터페이스를 필드로 가지고, 해당 구현체 인터페이스를 가지고 함수를 구현한다. 해당 추상체를 상속받은 여러 변이체가 존재하고, 
-변이체는 각각 자신만의 구현을 가진다. 이때, 구현체가 공개한 메소드나 필드를 사용할 수 있다.
+변이체는 각각 자신만의 구현을 가진다. 이때, 구현체로 추상체에 구현한 메소드를 사용하거나, 구현체의 접근 제어자가 protected나 public인 경우 구현체의 메소드를
+직접 사용하여 구현을 할 수 있다.
 
 Reference: https://en.wikipedia.org/wiki/Bridge_pattern 
 ### Composite Pattern

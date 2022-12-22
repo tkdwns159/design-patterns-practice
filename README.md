@@ -9,6 +9,9 @@
 ### Adapter Pattern
 Bridge Pattern과 구조가 유사하므로 주의하여야 한다. Adapter라는 이름에서 디자인 패턴의 의도를 유추할 수 있다. 연관이 없는 두 인터페이스를 잇고자 사용하는 디자인 패턴이다.
 Adaptee 인터페이스를 Target 인터페이스로 변환시키고자 한다. 이때, 중간에서 Adapter가 Adaptee에서 Target로의 변환을 가능하게 한다.
+그러면 Adapter로 어떻게 Adaptee로부터 Target으로 변환시킨다는 것일까? Adapter는 Target의 구현체이다. Adaptee의 구현체를 필드로 가지고 이를 활용함으로써,
+Target의 구현체를 정의한다. 이렇게 구현하면 Adaptee:Target을 1:1 매핑할 수 있다. 만약 Adaptee 인터페이스를 사용하여 Adapter을 구현한다면 Adaptee:Target을
+N:1 매핑할 수 있다. 매핑의 경우의 수가 커질수록 좋은 것 같지만, 그만큼 매핑이 일반화되므로 구체적인 매핑관계의 정의가 힘들어진다. 상황에 따라 적합한 방법을 선택하자.
 
 Reference: https://en.wikipedia.org/wiki/Adapter_pattern
 ### Bridge Pattern

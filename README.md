@@ -23,5 +23,6 @@ Adapter Pattern과 구조가 유사하므로 주의하여야 한다. 추상과 �
 
 Reference: https://en.wikipedia.org/wiki/Bridge_pattern 
 ### Composite Pattern
+Element와 Element를 포함하고 있는 Wrapper가 같은 인터페이스를 구현함으로써, Wrapper 또한 Element로 취급할 수 있다. 따라서 Wrapper 안에 Wrapper가 들어가는 구조도 가능하다.
 ### Decorator Pattern
 ## 행동 관련 패턴

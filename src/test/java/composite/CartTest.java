@@ -3,8 +3,6 @@ package composite;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class CartTest {
 
     @Test
@@ -12,11 +10,19 @@ class CartTest {
         Cart cart = new Cart();
         Item apple = new Item("apple", 1000);
         Item banana = new Item("banana", 3000);
+        House house = new House("타워팰리스", 2000000);
 
-        cart.addItem(apple);
-        cart.addItem(banana);
+        cart.addCalculable(apple);
+        cart.addCalculable(banana);
+        cart.addCalculable(house);
 
-        Assertions.assertEquals(cart.getPrice(), apple.getPrice() + banana.getPrice());
+        Assertions.assertEquals(cart.getPrice(), apple.getPrice() + banana.getPrice() + house.getPrice());
+
+        Cart bigCart = new Cart();
+        bigCart.addCalculable(apple);
+        bigCart.addCalculable(cart);
+
+        Assertions.assertEquals(bigCart.getPrice(), apple.getPrice() + cart.getPrice());
     }
 
 }
